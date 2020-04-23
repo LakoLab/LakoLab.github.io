@@ -1,0 +1,33 @@
+{
+  "name": "Adult_Cornea",
+  "priority": 10,
+  "tags": [
+    "10x"
+  ],
+  "shortLabel": "Adult Cornea",
+  "exprMatrix": "AdultCorneaNormalisedExpression.csv.gz",
+  "geneIdType": "symbol",
+  "meta": "AdultCorneaCellAnno.csv",
+  "enumFields": [
+    "c1_cell_id"
+  ],
+  "coords": [
+    {
+      "file": "/home/rachel/Share/AdultCornea/AdultCorneaUMAPEmbeddings.csv",
+      "flipY": false,
+      "shortLabel": "UMAP"
+    }
+  ],
+  "clusterField": "cluster",
+  "labelField": "cluster",
+  "hubUrl": "",
+  "colors": "colors.tsv",
+  "showLabels": true,
+  "quickGenesFile": "quickGenes.csv",
+  "unit": "TPM",
+  "matrixType": "auto",
+  "hubName": "100 Genes Sample Hub",
+  "ucscDb": "hg38",
+  "bamDir": "bam",
+  "inDir": ""
+}

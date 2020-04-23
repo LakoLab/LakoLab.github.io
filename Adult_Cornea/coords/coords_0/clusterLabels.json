@@ -1,0 +1,132 @@
+{
+  "labels": [
+    [
+      41585.0688372093,
+      20624.893023255812,
+      "Basal conjuctiva epithelium"
+    ],
+    [
+      43462.224316682376,
+      11075.382657869934,
+      "Superficial conjunctiva epithelium"
+    ],
+    [
+      53139.01515151515,
+      40112.816666666666,
+      "Corneal wing cells"
+    ],
+    [
+      6477.873764258555,
+      25519.219011406843,
+      "Corneal stroma keratocytes"
+    ],
+    [
+      29621.217993079586,
+      36434.04671280277,
+      "Limbal Niche"
+    ],
+    [
+      51650.13689839572,
+      33522.91550802139,
+      "Corneal epithelial superficial cells"
+    ],
+    [
+      36962.74365274365,
+      40965.75839475839,
+      "Transit amplifying cells"
+    ],
+    [
+      5335.623762376237,
+      31513.992574257427,
+      "Corneal stroma"
+    ],
+    [
+      8455.551928783383,
+      41123.23738872404,
+      "Limbal fibroblasts"
+    ],
+    [
+      41988.039021549215,
+      34451.60745486314,
+      "Corneal basal and suprabasal cells"
+    ],
+    [
+      62237.021062271066,
+      31625.077838827838,
+      "Limbal superficial  cells"
+    ],
+    [
+      20443.623076923075,
+      19340.169230769232,
+      "Modulated corneal endothelial cells"
+    ],
+    [
+      43656.29113924051,
+      59090.740506329115,
+      "Immune cells II"
+    ],
+    [
+      31612.2576,
+      46194.0112,
+      "Quiescent LSCs"
+    ],
+    [
+      33902.24,
+      62445.475,
+      "Immune cells I"
+    ],
+    [
+      20524.79906542056,
+      22954.504672897197,
+      "Red blood cells"
+    ],
+    [
+      25527.178571428572,
+      1454.3839285714287,
+      "Corneal blood vessels"
+    ],
+    [
+      15699.606382978724,
+      35892.585106382976,
+      "Limbal stroma"
+    ],
+    [
+      20060.69573283859,
+      6588.504638218924,
+      "Conjunctival endothelium"
+    ],
+    [
+      7812.620689655172,
+      11147.810344827587,
+      "Corneal endothelium"
+    ],
+    [
+      21480.172727272726,
+      31213.963636363635,
+      "Melanocytes"
+    ]
+  ],
+  "order": [
+    "Basal conjuctiva epithelium",
+    "Superficial conjunctiva epithelium",
+    "Corneal blood vessels",
+    "Conjunctival endothelium",
+    "Modulated corneal endothelial cells",
+    "Red blood cells",
+    "Melanocytes",
+    "Limbal stroma",
+    "Limbal fibroblasts",
+    "Corneal stroma",
+    "Corneal stroma keratocytes",
+    "Corneal endothelium",
+    "Limbal Niche",
+    "Transit amplifying cells",
+    "Quiescent LSCs",
+    "Corneal basal and suprabasal cells",
+    "Corneal epithelial superficial cells",
+    "Corneal wing cells",
+    "Limbal superficial  cells",
+    "Immune cells II",
+    "Immune cells I"
+  ]
+}

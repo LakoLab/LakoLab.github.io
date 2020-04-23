@@ -1,0 +1,185 @@
+{
+  "fileVersions": {
+    "inMeta": {
+      "fname": "/home/rachel/Share/AdultCornea/AdultCorneaCellAnno.csv",
+      "md5": "81840c4b92",
+      "size": 958181,
+      "mtime": "2020-04-23 11:51:13"
+    },
+    "outMeta": {
+      "fname": "cellData/Adult_Cornea/meta.tsv",
+      "md5": "dd1655dc5f",
+      "size": 958181,
+      "mtime": "2020-04-23 13:17:18"
+    },
+    "inMatrix": {
+      "fname": "/home/rachel/Share/AdultCornea/AdultCorneaNormalisedExpression.csv.gz",
+      "md5": "e8877cc4d6",
+      "size": 5841706,
+      "mtime": "2020-04-23 11:51:19"
+    },
+    "outMatrix": {
+      "fname": "cellData/Adult_Cornea/exprMatrix.tsv.gz",
+      "md5": "d463b7c068",
+      "size": 3534428,
+      "mtime": "2020-04-23 13:17:22"
+    },
+    "desc": {
+      "fname": "desc.conf",
+      "md5": "c29f974369",
+      "size": 2172,
+      "mtime": "2020-04-23 11:55:31"
+    },
+    "conf": {
+      "fname": "/home/rachel/Share/AdultCornea/cellbrowser.conf",
+      "md5": "0b9d0003a9",
+      "size": 4822,
+      "mtime": "2020-04-23 13:12:47"
+    }
+  },
+  "sampleCount": 21343,
+  "matrixWasFiltered": false,
+  "metaFields": [
+    {
+      "name": "cellName",
+      "label": "cellName",
+      "type": "uniqueString",
+      "maxSize": 18,
+      "diffValCount": 21343,
+      "md5": "b474e5dd47"
+    },
+    {
+      "name": "cluster",
+      "label": "cluster",
+      "type": "enum",
+      "valCounts": [
+        [
+          "Basal conjuctiva epithelium",
+          3072
+        ],
+        [
+          "Corneal basal and suprabasal cells",
+          2454
+        ],
+        [
+          "Corneal wing cells",
+          1886
+        ],
+        [
+          "Corneal stroma keratocytes",
+          1879
+        ],
+        [
+          "Transit amplifying cells",
+          1745
+        ],
+        [
+          "Limbal superficial  cells",
+          1560
+        ],
+        [
+          "Superficial conjunctiva epithelium",
+          1517
+        ],
+        [
+          "Corneal epithelial superficial cells",
+          1336
+        ],
+        [
+          "Limbal fibroblasts",
+          964
+        ],
+        [
+          "Quiescent LSCs",
+          893
+        ],
+        [
+          "Limbal Niche",
+          826
+        ],
+        [
+          "Conjunctival endothelium",
+          770
+        ],
+        [
+          "Corneal stroma",
+          578
+        ],
+        [
+          "Modulated corneal endothelial cells",
+          372
+        ],
+        [
+          "Red blood cells",
+          306
+        ],
+        [
+          "Immune cells I",
+          287
+        ],
+        [
+          "Limbal stroma",
+          269
+        ],
+        [
+          "Immune cells II",
+          226
+        ],
+        [
+          "Corneal blood vessels",
+          161
+        ],
+        [
+          "Melanocytes",
+          158
+        ],
+        [
+          "Corneal endothelium",
+          84
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 21,
+      "md5": "9be8452557"
+    }
+  ],
+  "matrixArrType": "Float32",
+  "labelField": "cluster",
+  "coords": [
+    {
+      "name": "coords_0",
+      "shortLabel": "UMAP",
+      "md5": "896fd29dc9",
+      "minX": 0,
+      "maxX": 65535,
+      "minY": 0,
+      "maxY": 65535,
+      "type": "Uint16",
+      "labelMd5": "d41d8cd98f"
+    }
+  ],
+  "hasFiles": [
+    "datasetDesc"
+  ],
+  "markers": [],
+  "quickGenes": [
+    [
+      "ACE2"
+    ],
+    [
+      "TMPRSS2"
+    ]
+  ],
+  "name": "Adult_Cornea",
+  "shortLabel": "Adult Cornea",
+  "priority": 10,
+  "tags": [
+    "10x"
+  ],
+  "clusterField": "cluster",
+  "hubUrl": "",
+  "showLabels": true,
+  "ucscDb": "hg38",
+  "unit": "TPM",
+  "md5": "9c1918e9a1"
+}
