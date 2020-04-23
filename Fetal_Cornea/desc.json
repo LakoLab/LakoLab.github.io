@@ -1,6 +1,6 @@
 {
-  "title": "Adult Cornea Data",
-  "abstract": "Cornea-conjunctival tissue from 4 human adult donor eyes (51, 75, 83 and 86 years old)",
+  "title": "Fetal Cornea Data",
+  "abstract": "Cornea-conjunctival tissue from 13 developing human eyes from 10-21 post-conception weeks",
   "methods": "The cornea-conjunctival tissues were dissociated to single cells using a multi tissue dissociation kit (Miltenyi Biotec). For scRNA-Seq cells were captured using the Chromium Single Cell 3′ Library & Gel Bead Kit, version 3 (10x Genomics).",
   "inDir": "",
   "coordFiles": [

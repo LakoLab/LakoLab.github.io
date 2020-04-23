@@ -1,0 +1,117 @@
+{
+  "fileVersions": {
+    "inMeta": {
+      "fname": "/home/rachel/Share/covid19/FetalCorneaCellAnno.csv",
+      "md5": "431d731774",
+      "size": 373744,
+      "mtime": "2020-04-23 13:08:08"
+    },
+    "outMeta": {
+      "fname": "cellData/Fetal_Cornea/meta.tsv",
+      "md5": "d3a99e824d",
+      "size": 373744,
+      "mtime": "2020-04-23 15:34:40"
+    },
+    "inMatrix": {
+      "fname": "/home/rachel/Share/covid19/FetalCorneaNormalisedExpression.csv.gz",
+      "md5": "fb443d33ee",
+      "size": 1868132,
+      "mtime": "2020-04-23 13:08:08"
+    },
+    "outMatrix": {
+      "fname": "cellData/Fetal_Cornea/exprMatrix.tsv.gz",
+      "md5": "496c7f48c3",
+      "size": 1163084,
+      "mtime": "2020-04-23 15:34:42"
+    },
+    "desc": {
+      "fname": "desc.conf",
+      "md5": "c6803b2011",
+      "size": 2225,
+      "mtime": "2020-04-23 15:09:31"
+    },
+    "conf": {
+      "fname": "/home/rachel/Share/covid19/cellbrowser.conf",
+      "md5": "67879f3567",
+      "size": 4822,
+      "mtime": "2020-04-23 15:17:24"
+    }
+  },
+  "sampleCount": 9074,
+  "matrixWasFiltered": false,
+  "metaFields": [
+    {
+      "name": "cellName",
+      "label": "cellName",
+      "type": "uniqueString",
+      "maxSize": 21,
+      "diffValCount": 9074,
+      "md5": "cecd5a7295"
+    },
+    {
+      "name": "cluster",
+      "label": "cluster",
+      "type": "enum",
+      "valCounts": [
+        [
+          "Ocular epithelium",
+          3645
+        ],
+        [
+          "Corneal epithelium",
+          2496
+        ],
+        [
+          "Conjuctival epithelium",
+          2283
+        ],
+        [
+          "Limbal epithelium",
+          650
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 4,
+      "md5": "0e8ace3d5c"
+    }
+  ],
+  "matrixArrType": "Float32",
+  "labelField": "cluster",
+  "coords": [
+    {
+      "name": "coords_0",
+      "shortLabel": "UMAP",
+      "md5": "1dcdbba70f",
+      "minX": 0,
+      "maxX": 65535,
+      "minY": 0,
+      "maxY": 65535,
+      "type": "Uint16",
+      "labelMd5": "d41d8cd98f"
+    }
+  ],
+  "hasFiles": [
+    "datasetDesc"
+  ],
+  "markers": [],
+  "quickGenes": [
+    [
+      "ACE2"
+    ],
+    [
+      "TMPRSS2"
+    ]
+  ],
+  "name": "Fetal_Cornea",
+  "shortLabel": "Fetal Cornea",
+  "priority": 10,
+  "tags": [
+    "10x"
+  ],
+  "clusterField": "cluster",
+  "hubUrl": "",
+  "showLabels": true,
+  "ucscDb": "hg38",
+  "unit": "TPM",
+  "md5": "8c7d4d5683"
+}

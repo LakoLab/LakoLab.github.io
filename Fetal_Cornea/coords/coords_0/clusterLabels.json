@@ -1,0 +1,30 @@
+{
+  "labels": [
+    [
+      51205.33041301627,
+      17066.51939924906,
+      "Conjuctival epithelium"
+    ],
+    [
+      46556.062965083,
+      46083.49513451631,
+      "Corneal epithelium"
+    ],
+    [
+      8981.982751862015,
+      40210.86436691494,
+      "Ocular epithelium"
+    ],
+    [
+      10003.200440528635,
+      11149.237885462555,
+      "Limbal epithelium"
+    ]
+  ],
+  "order": [
+    "Conjuctival epithelium",
+    "Corneal epithelium",
+    "Ocular epithelium",
+    "Limbal epithelium"
+  ]
+}

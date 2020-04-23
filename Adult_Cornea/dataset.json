@@ -1,40 +1,40 @@
 {
   "fileVersions": {
     "inMeta": {
-      "fname": "/home/rachel/Share/AdultCornea/AdultCorneaCellAnno.csv",
+      "fname": "/home/rachel/Share/covid19/AdultCorneaCellAnno.csv",
       "md5": "81840c4b92",
       "size": 958181,
-      "mtime": "2020-04-23 11:51:13"
+      "mtime": "2020-04-23 13:08:03"
     },
     "outMeta": {
       "fname": "cellData/Adult_Cornea/meta.tsv",
       "md5": "dd1655dc5f",
       "size": 958181,
-      "mtime": "2020-04-23 13:17:18"
+      "mtime": "2020-04-23 15:35:58"
     },
     "inMatrix": {
-      "fname": "/home/rachel/Share/AdultCornea/AdultCorneaNormalisedExpression.csv.gz",
-      "md5": "e8877cc4d6",
+      "fname": "/home/rachel/Share/covid19/AdultCorneaNormalisedExpression.csv.gz",
+      "md5": "09353af59f",
       "size": 5841706,
-      "mtime": "2020-04-23 11:51:19"
+      "mtime": "2020-04-23 13:08:06"
     },
     "outMatrix": {
       "fname": "cellData/Adult_Cornea/exprMatrix.tsv.gz",
-      "md5": "d463b7c068",
+      "md5": "9d0cb4b9b8",
       "size": 3534428,
-      "mtime": "2020-04-23 13:17:22"
+      "mtime": "2020-04-23 15:36:02"
     },
     "desc": {
       "fname": "desc.conf",
-      "md5": "c29f974369",
-      "size": 2172,
-      "mtime": "2020-04-23 11:55:31"
+      "md5": "9049cdcb5d",
+      "size": 2222,
+      "mtime": "2020-04-23 15:06:19"
     },
     "conf": {
-      "fname": "/home/rachel/Share/AdultCornea/cellbrowser.conf",
+      "fname": "/home/rachel/Share/covid19/cellbrowser.conf",
       "md5": "0b9d0003a9",
       "size": 4822,
-      "mtime": "2020-04-23 13:12:47"
+      "mtime": "2020-04-23 15:06:19"
     }
   },
   "sampleCount": 21343,
@@ -46,7 +46,7 @@
       "type": "uniqueString",
       "maxSize": 18,
       "diffValCount": 21343,
-      "md5": "b474e5dd47"
+      "md5": "2c9d803801"
     },
     {
       "name": "cluster",
@@ -140,7 +140,7 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 21,
-      "md5": "9be8452557"
+      "md5": "355702694e"
     }
   ],
   "matrixArrType": "Float32",
@@ -181,5 +181,5 @@
   "showLabels": true,
   "ucscDb": "hg38",
   "unit": "TPM",
-  "md5": "9c1918e9a1"
+  "md5": "7897a7841a"
 }

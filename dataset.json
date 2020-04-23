@@ -6,8 +6,20 @@
     {
       "shortLabel": "Adult Cornea",
       "name": "Adult_Cornea",
-      "md5": "9c1918e9a1",
+      "md5": "7897a7841a",
       "sampleCount": 21343,
+      "tags": [
+        "10x"
+      ],
+      "hasFiles": [
+        "datasetDesc"
+      ]
+    },
+    {
+      "shortLabel": "Fetal Cornea",
+      "name": "Fetal_Cornea",
+      "md5": "8c7d4d5683",
+      "sampleCount": 9074,
       "tags": [
         "10x"
       ],

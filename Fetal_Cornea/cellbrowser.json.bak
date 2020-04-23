@@ -1,19 +1,19 @@
 {
-  "name": "Adult_Cornea",
+  "name": "Fetal_Cornea",
   "priority": 10,
   "tags": [
     "10x"
   ],
-  "shortLabel": "Adult Cornea",
-  "exprMatrix": "AdultCorneaNormalisedExpression.csv.gz",
+  "shortLabel": "Fetal Cornea",
+  "exprMatrix": "FetalCorneaNormalisedExpression.csv.gz",
   "geneIdType": "symbol",
-  "meta": "AdultCorneaCellAnno.csv",
+  "meta": "FetalCorneaCellAnno.csv",
   "enumFields": [
     "c1_cell_id"
   ],
   "coords": [
     {
-      "file": "/home/rachel/Share/covid19/AdultCorneaUMAPEmbeddings.csv",
+      "file": "/home/rachel/Share/covid19/FetalCorneaUMAPEmbeddings.csv",
       "flipY": false,
       "shortLabel": "UMAP"
     }
