@@ -1,17 +1,5 @@
 {
   "fileVersions": {
-    "inMeta": {
-      "fname": "/home/rachel/Share/covid19/FetalCorneaCellAnno.csv",
-      "md5": "431d731774",
-      "size": 373744,
-      "mtime": "2020-04-23 13:08:08"
-    },
-    "outMeta": {
-      "fname": "cellData/Fetal_Cornea/meta.tsv",
-      "md5": "d3a99e824d",
-      "size": 373744,
-      "mtime": "2020-04-23 15:34:40"
-    },
     "inMatrix": {
       "fname": "/home/rachel/Share/covid19/FetalCorneaNormalisedExpression.csv.gz",
       "md5": "fb443d33ee",
@@ -24,6 +12,24 @@
       "size": 1163084,
       "mtime": "2020-04-23 15:34:42"
     },
+    "inMeta": {
+      "fname": "/home/rachel/Share/covid19/FetalCorneaCellAnno.csv",
+      "md5": "431d731774",
+      "size": 373744,
+      "mtime": "2020-04-23 13:08:08"
+    },
+    "colors": {
+      "fname": "/home/rachel/Share/covid19/colors.csv",
+      "md5": "677b375055",
+      "size": 762,
+      "mtime": "2020-04-24 11:50:46"
+    },
+    "outMeta": {
+      "fname": "cellData/Fetal_Cornea/meta.tsv",
+      "md5": "d3a99e824d",
+      "size": 373744,
+      "mtime": "2020-04-24 11:53:27"
+    },
     "desc": {
       "fname": "desc.conf",
       "md5": "c6803b2011",
@@ -32,11 +38,12 @@
     },
     "conf": {
       "fname": "/home/rachel/Share/covid19/cellbrowser.conf",
-      "md5": "67879f3567",
+      "md5": "38148a1131",
       "size": 4822,
-      "mtime": "2020-04-23 15:17:24"
+      "mtime": "2020-04-24 11:53:20"
     }
   },
+  "matrixArrType": "Float32",
   "sampleCount": 9074,
   "matrixWasFiltered": false,
   "metaFields": [
@@ -46,12 +53,18 @@
       "type": "uniqueString",
       "maxSize": 21,
       "diffValCount": 9074,
-      "md5": "cecd5a7295"
+      "md5": "5dbae8d5d0"
     },
     {
       "name": "cluster",
       "label": "cluster",
       "type": "enum",
+      "colors": [
+        "e41a1c",
+        "984ea3",
+        "ff7f00",
+        "377eb8"
+      ],
       "valCounts": [
         [
           "Ocular epithelium",
@@ -72,10 +85,9 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 4,
-      "md5": "0e8ace3d5c"
+      "md5": "3c27e0c22b"
     }
   ],
-  "matrixArrType": "Float32",
   "labelField": "cluster",
   "coords": [
     {
@@ -113,5 +125,5 @@
   "showLabels": true,
   "ucscDb": "hg38",
   "unit": "TPM",
-  "md5": "8c7d4d5683"
+  "md5": "8319c8569f"
 }

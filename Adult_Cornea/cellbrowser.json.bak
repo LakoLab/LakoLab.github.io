@@ -21,7 +21,7 @@
   "clusterField": "cluster",
   "labelField": "cluster",
   "hubUrl": "",
-  "colors": "colors.tsv",
+  "colors": "/home/rachel/Share/covid19/colors.csv",
   "showLabels": true,
   "quickGenesFile": "quickGenes.csv",
   "unit": "TPM",

@@ -1,17 +1,5 @@
 {
   "fileVersions": {
-    "inMeta": {
-      "fname": "/home/rachel/Share/covid19/AdultCorneaCellAnno.csv",
-      "md5": "81840c4b92",
-      "size": 958181,
-      "mtime": "2020-04-23 13:08:03"
-    },
-    "outMeta": {
-      "fname": "cellData/Adult_Cornea/meta.tsv",
-      "md5": "dd1655dc5f",
-      "size": 958181,
-      "mtime": "2020-04-23 15:35:58"
-    },
     "inMatrix": {
       "fname": "/home/rachel/Share/covid19/AdultCorneaNormalisedExpression.csv.gz",
       "md5": "09353af59f",
@@ -24,6 +12,24 @@
       "size": 3534428,
       "mtime": "2020-04-23 15:36:02"
     },
+    "inMeta": {
+      "fname": "/home/rachel/Share/covid19/AdultCorneaCellAnno.csv",
+      "md5": "81840c4b92",
+      "size": 958181,
+      "mtime": "2020-04-23 13:08:03"
+    },
+    "colors": {
+      "fname": "/home/rachel/Share/covid19/colors.csv",
+      "md5": "677b375055",
+      "size": 762,
+      "mtime": "2020-04-24 11:50:46"
+    },
+    "outMeta": {
+      "fname": "cellData/Adult_Cornea/meta.tsv",
+      "md5": "dd1655dc5f",
+      "size": 958181,
+      "mtime": "2020-04-24 11:50:58"
+    },
     "desc": {
       "fname": "desc.conf",
       "md5": "9049cdcb5d",
@@ -32,11 +38,12 @@
     },
     "conf": {
       "fname": "/home/rachel/Share/covid19/cellbrowser.conf",
-      "md5": "0b9d0003a9",
+      "md5": "d5d918e340",
       "size": 4822,
-      "mtime": "2020-04-23 15:06:19"
+      "mtime": "2020-04-24 11:49:39"
     }
   },
+  "matrixArrType": "Float32",
   "sampleCount": 21343,
   "matrixWasFiltered": false,
   "metaFields": [
@@ -46,12 +53,35 @@
       "type": "uniqueString",
       "maxSize": 18,
       "diffValCount": 21343,
-      "md5": "2c9d803801"
+      "md5": "2521d08a58"
     },
     {
       "name": "cluster",
       "label": "cluster",
       "type": "enum",
+      "colors": [
+        "a6cee3",
+        "1f78b4",
+        "b2df8a",
+        "33a02c",
+        "fb9a99",
+        "e31a1c",
+        "fdbf6f",
+        "ff7f00",
+        "cab2d6",
+        "6a3d9a",
+        "66c2a5",
+        "fc8d62",
+        "8da0cb",
+        "e78ac3",
+        "c51b8a",
+        "ffd92f",
+        "41b6c4",
+        "b3b3b3",
+        "000080",
+        "b3cde3",
+        "4d4d4d"
+      ],
       "valCounts": [
         [
           "Basal conjuctiva epithelium",
@@ -140,10 +170,9 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 21,
-      "md5": "355702694e"
+      "md5": "59891ce33a"
     }
   ],
-  "matrixArrType": "Float32",
   "labelField": "cluster",
   "coords": [
     {
@@ -181,5 +210,5 @@
   "showLabels": true,
   "ucscDb": "hg38",
   "unit": "TPM",
-  "md5": "7897a7841a"
+  "md5": "487872b49d"
 }
